@@ -1,0 +1,212 @@
+@media screen and (max-width: 430px) {
+    .hero {
+        background-image: url("./images/dog-crop-800.jpg");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 95%;
+    }
+
+    .nav {
+        position: absolute;
+        width: 150px;
+        left: -150px;
+        transition: transform 0.3s ease;
+        display: none;
+        z-index: 10;
+    }
+
+    .nav__list {
+        background-color: #fff;
+        border-radius:0 5px 5px 0;
+    }
+
+    .nav__item {
+        display: list-item;
+        width: auto;
+        margin: 0 20px;
+        border-bottom: 1px solid #959595;
+    }
+
+    .end {
+        border-bottom: none;
+    }
+
+    .header__logo {
+        height: 10vw;
+    }
+
+    .header__title {
+        font-size: 6.75vw;
+        margin: 4.75vw 0 0;
+    }
+
+    .header__icon {
+        display: block;
+    }
+
+    .open {
+        display: block;
+        left: 0;
+    }
+
+    .scores__location, .long__name, .snippet__thumbnail {
+        display: none;
+    }
+
+    footer {
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+    .scores__table th, 
+    .scores__table td {
+        padding: 0.5em;
+    }
+
+    .top-news__item {
+        padding: 0.5em 0;
+    }
+}
+
+@media screen and (min-width: 395px) {
+    .long__name {
+        display: inline;
+    }
+
+    .short__name {
+        display: none;
+    }
+
+    .weather__next {
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    .top-news, .scores, .weather {
+        margin: 0 auto;
+        width: 630px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 850px) {
+    .scores {
+        margin: 0 auto;
+        width: 630px;
+    }
+
+    .hero {
+        background-image: url(images/dog-narrow-300.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .weather__next {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        -webkit-order: 0;
+        -moz-order: 0;
+        -ms-order: 0;
+        -o-order: 0;
+        order: 0;
+    }
+
+    .top-news {
+        width: 50%;
+        -webkit-order: 1;
+        -moz-order: 1;
+        -ms-order: 1;
+        -o-order: 1;
+        order: 1;
+    }
+
+    .scores {
+        -webkit-order: 3;
+        -moz-order: 3;
+        -ms-order: 3;
+        -o-order: 3;
+        order: 3;
+    }
+
+    .weather {
+        width: 50%;
+        -webkit-order: 2;
+        -moz-order: 2;
+        -ms-order: 2;
+        -o-order: 2;
+        order: 2;
+    }
+
+    .recent-news {
+        -webkit-order: 4;
+        -moz-order: 4;
+        -ms-order: 4;
+        -o-order: 4;
+        order: 4;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .hero {
+        background-image: -webkit-image-set(url(images/dog-small.jpg) 1x, url(images/dog-large.jpg) 2x);
+    }
+
+    .top-news {
+        padding-top: 0;
+    }
+
+    .top-news__item {
+        padding: 0.75em 0;
+    }
+
+    .hero {
+        width: 60%
+    }
+
+    .top-news {
+        width: 40%;
+    }
+
+    .scores {
+        width: 60%;
+    }
+
+    .scores__location {
+        display: none;
+    }
+
+    .weather {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .header__inner,
+    .nav,
+    main {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .scores__location {
+        display: table-cell;
+    }
+}
+
