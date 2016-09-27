@@ -1,6 +1,6 @@
 @media screen and (max-width: 430px) {
     .hero {
-        background-image: url("./images/dog-crop-800.jpg");
+        background-image: url(../images/dog-crop-800.jpg);
         background-size: cover;
     }
 }
@@ -103,7 +103,7 @@
     }
 
     .hero {
-        background-image: url(images/dog-narrow-300.jpg);
+        background-image: url(../images/dog-narrow-300.jpg);
         background-size: cover;
     }
 }
@@ -164,7 +164,7 @@
 
 @media screen and (min-width: 850px) {
     .hero {
-        background-image: -webkit-image-set(url(images/dog-small.jpg) 1x, url(images/dog-large.jpg) 2x);
+        background-image: -webkit-image-set(url(../images/dog-small.jpg) 1x, url(../images/dog-large.jpg) 2x);
     }
 
     .top-news {
